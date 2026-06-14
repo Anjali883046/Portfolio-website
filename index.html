@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Anjali Vishwakarma</h1>
+        <p>Web Developer | Student | Designer</p>
+        <button onclick="welcome()">Say Hello</button>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            Hello! I'm Anjali Vishwakarma, a passionate web development student.
+            I enjoy creating beautiful and responsive websites using
+            HTML, CSS, and JavaScript.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <div class="skill-box">
+            <div class="skill">HTML</div>
+            <div class="skill">CSS</div>
+            <div class="skill">JavaScript</div>
+            <div class="skill">Responsive Design</div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+
+        <div class="project-container">
+
+            <div class="card">
+                <h3>Portfolio Website</h3>
+                <p>Personal portfolio created using HTML, CSS and JS.</p>
+            </div>
+
+            <div class="card">
+                <h3>Calculator App</h3>
+                <p>Simple calculator with basic arithmetic operations.</p>
+            </div>
+
+            <div class="card">
+                <h3>To-Do List</h3>
+                <p>Task manager with add and delete functionality.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+           
+
+            <button type="button" onclick="submitForm()">
+                Send Message
+            </button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Anjali Vishwakarma | Portfolio Website</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
